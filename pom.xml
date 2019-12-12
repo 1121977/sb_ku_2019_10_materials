@@ -25,6 +25,16 @@
     <modules>
         <module>java_reboot_L06</module>
         <module>L07-creational-patterns</module>
+<<<<<<< HEAD
+=======
+        <module>L08-serialization</module>
+        <module>L08-logging</module>
+
+        <module>library</module>
+        <module>L11-connectionPool</module>
+        <module>L14_spring_xml</module>
+        <module>L14_AOP</module>
+>>>>>>> upstream/master
     </modules>
 
     <dependencyManagement>
@@ -42,8 +52,14 @@
         <java.version>13</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+<<<<<<< HEAD
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+=======
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+        <jetty.version>9.4.19.v20190610</jetty.version>
+>>>>>>> upstream/master
     </properties>
 
 </project>
